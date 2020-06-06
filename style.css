@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  padding-top: 96px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 17, 255);
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: rgb(0, 17, 255);
+  padding: 16px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__image {
+  max-width: 400px;
+  padding: 40px 0;
+}
+
+.image {
+  display: inline-block;
+}
